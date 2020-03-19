@@ -15,7 +15,7 @@ if(num < 49){
     } else {
       console.log('Не знаете? ECMAScript!');
     }*/
-    let num = 50;
+   // let num = 50;
     //while(num<55) {
      //   console.log(num);
       //  num++;
@@ -26,10 +26,39 @@ if(num < 49){
    }
    while(num<55)*/
 
-   for(let i = 1; i<8; i++){
-       if(i == 6){
-        continue;
-       }
-       console.log(i);
-   }
+//    for(let i = 1; i<8; i++){
+//        if(i == 6){
+//         continue;
+//        }
+//        console.log(i);
+//    }
 
+// let num = 20;
+// function showFirstMessage(text){
+//     alert(text);
+//     let num = 10;
+//     console.log(num);
+// }
+// showFirstMessage("hello world!");
+// console.log(num);
+
+// let calc = function (a,b) {
+//     return(a + b);
+// }
+// console.log(calc(3,4));
+// console.log(calc(8,4));
+
+// let calc = (a,b) => a+b
+// console.log(calc(5,4));
+// console.log(calc(8,4));
+
+
+// function retVar(){
+//     let num = 50;
+//     return num;
+// }
+// let anotherNum = retVar();
+// console.log(anotherNum);
+let num = (12.533443).toFixed();
+console.log(num);
+console.log(typeof num);

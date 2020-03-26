@@ -59,6 +59,61 @@ if(num < 49){
 // }
 // let anotherNum = retVar();
 // console.log(anotherNum);
-let num = (12.533443).toFixed();
-console.log(num);
-console.log(typeof num);
+// let num = (12.533443).toFixed();
+// console.log(num);
+// console.log(typeof num);
+
+// function learnJs (lang,callback){
+//     console.log("Я учу " + lang);
+//     callback();
+// }
+// function done(){
+//     console.log("Я прошел 3-й урок");
+// }
+// learnJs("JavaScript", done);
+    
+// let options = {
+//     width: 1024,
+//     height: 1024,
+//     name: "text"
+// };
+// console.log(options.name);
+// options.bool = false;
+// console.log(options.bool);
+
+// options.colors = {
+//     border: "red",
+//     bg: "blue"
+// };
+
+// delete options.bool;
+// console.log(options);
+
+// for( let key in options){
+//     console.log("Свойства " + key + " имеют значение " + options[key]);
+// }
+// console.log(Object.keys(options).length);
+
+// let arr = [1,2,3,4,5];
+// arr.forEach(function(item,i,mass){
+//     console.log(i + ": " + item + "( массив: " + mass + ")");
+// });
+// let mass = [1,3,4,6,7];
+// for(let key of mass){
+//     console.log(key);
+// }
+
+// var fruits = ["Яблоко","Банан" , "Виноград",'Ананас','арбуз'];
+// for(let key of fruits){
+//     console.log(key);
+// }
+// let ans = prompt("","");
+//    arr=[];
+//    arr=ans.split(',');
+//    console.log(arr);
+ let arr = [1,15,4],
+    i = arr.sort(copareNum);
+    function copareNum(a,b){
+        return a-b;
+    }
+   console.log(arr);

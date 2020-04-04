@@ -1,3 +1,26 @@
+'use strict';
+let btnStart = document.getElementById('start'),
+    budgetValue = document.getElementsByClassName('budget-value'),
+    daybudgetValue = document.getElementsByClassName('daybudget-value'),
+    levelValue = document.getElementsByClassName('level-value'),
+    expensesValue = document.getElementsByClassName('expenses-value'),
+    optionalexpensesValue = document.getElementsByClassName('optionalexpenses-value'),
+    incomeValue = document.getElementsByClassName('income-value'), 
+    monthSavingsValue = document.getElementsByClassName('monthsavings-value'),
+    yearSavingsValue = document.getElementsByClassName('yearsavings-value'),
+
+        expensesItem = document.getElementsByClassName('expenses-item'),
+        optionalExpensesBtn = document.getElementsByTagName('button'),
+        countBudgetBtn = document.getElementsByTagName('button'),
+    optionalExpensesItem = document.querySelectorAll('.optionalexpenses-item'),
+        incomeItem = document.querySelector('.choose-income'),
+        checkSavings = document.querySelector('#savings'),
+        sumValue = document.querySelector('.choose-sum'),
+
+    percentValue = document.querySelector('#percent'),
+    yearValue = document.querySelector('.year-value'),
+    monthValue = document.querySelector('.month-value'),
+    dayValue = document.querySelector('.day-value');
 let money,time;
 function start() {
     money = +prompt("Ваш бюджет на месяц?");

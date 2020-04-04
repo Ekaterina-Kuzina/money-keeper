@@ -111,9 +111,19 @@ if(num < 49){
 //    arr=[];
 //    arr=ans.split(',');
 //    console.log(arr);
- let arr = [1,15,4],
-    i = arr.sort(copareNum);
-    function copareNum(a,b){
-        return a-b;
-    }
-   console.log(arr);
+
+//  function hello(){
+//      console.log("Hello world!");
+//  }
+//  hello();
+//  function hi (){
+//      console.log("Hello world!");
+//  }
+// hi();
+
+// let ar = [1,15,4],
+//     i = arr.sort(copareNum);
+//     function copareNum(a,b){
+//         return a-b;
+//     }
+//    console.log(arr);
